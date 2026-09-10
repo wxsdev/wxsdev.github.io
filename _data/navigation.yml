@@ -1,56 +1,27 @@
-main_en:
+main:
   - title: "About"
-    url: "/#about-me"
+    url: /#about-me
 
   - title: "Experience"
-    url: "/#experience"
+    url: /#experience
 
   - title: "Projects"
-    url: "/#projects"
+    url: /#projects
 
   - title: "Education"
-    url: "/#education"
+    url: /#education
 
   - title: "Skills"
-    url: "/#skills"
+    url: /#skills
 
   - title: "Awards"
-    url: "/#awards"
+    url: /#awards
 
   - title: "Interests"
-    url: "/#interests"
+    url: /#interests
 
   - title: "Contact"
-    url: "/#contact"
+    url: /#contact
 
   - title: "中文"
-    url: "/cn/"
-
-
-main_cn:
-  - title: "关于我"
-    url: "/cn/#about-me"
-
-  - title: "实习经历"
-    url: "/cn/#experience"
-
-  - title: "项目经历"
-    url: "/cn/#projects"
-
-  - title: "教育背景"
-    url: "/cn/#education"
-
-  - title: "专业技能"
-    url: "/cn/#skills"
-
-  - title: "荣誉奖项"
-    url: "/cn/#awards"
-
-  - title: "技术兴趣"
-    url: "/cn/#interests"
-
-  - title: "联系方式"
-    url: "/cn/#contact"
-
-  - title: "English"
-    url: "/"
+    url: "#"
