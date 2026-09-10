@@ -2,40 +2,276 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+
+        <button>
+          <div class="navicon"></div>
+        </button>
 
         <ul class="visible-links">
 
-          {% if page.url == "/cn/" or page.url == "/cn/index.html" %}
+          {% if page.url == "/cn/" %}
 
-            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <li class="masthead__menu-item masthead__menu-item--lg">
               <a href="/cn/#about-me">首页</a>
             </li>
 
-            {% for link in site.data.navigation.main_cn %}
-              <li class="masthead__menu-item">
-                <a href="{{ link.url }}">{{ link.title }}</a>
-              </li>
-            {% endfor %}
+            <li class="masthead__menu-item">
+              <a href="/cn/#experience">实习经历</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/cn/#projects">项目经历</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/cn/#education">教育背景</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/cn/#skills">专业技能</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/cn/#awards">荣誉奖项</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/cn/#interests">技术兴趣</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/cn/#contact">联系方式</a>
+            </li>
+
+            <li class="masthead__menu-item language-switch">
+              <a href="/" data-language-switch="en">English</a>
+            </li>
 
           {% else %}
 
-            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <li class="masthead__menu-item masthead__menu-item--lg">
               <a href="/#about-me">Homepage</a>
             </li>
 
-            {% for link in site.data.navigation.main_en %}
-              <li class="masthead__menu-item">
-                <a href="{{ link.url }}">{{ link.title }}</a>
-              </li>
-            {% endfor %}
+            <li class="masthead__menu-item">
+              <a href="/#experience">Experience</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/#projects">Projects</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/#education">Education</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/#skills">Skills</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/#awards">Awards</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/#interests">Interests</a>
+            </li>
+
+            <li class="masthead__menu-item">
+              <a href="/#contact">Contact</a>
+            </li>
+
+            <li class="masthead__menu-item language-switch">
+              <a href="/cn/" data-language-switch="zh">中文</a>
+            </li>
 
           {% endif %}
 
         </ul>
 
         <ul class="hidden-links hidden"></ul>
+
       </nav>
     </div>
   </div>
 </div>
+
+<script>
+(function () {
+
+  function getContentFromPage(url) {
+    return fetch(url)
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error("Failed to load " + url);
+        }
+        return response.text();
+      })
+      .then(function (html) {
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(html, "text/html");
+
+        var content = doc.querySelector(".page__content");
+
+        if (!content) {
+          throw new Error("Cannot find .page__content");
+        }
+
+        return {
+          content: content.innerHTML,
+          title: doc.title
+        };
+      });
+  }
+
+  function switchLanguage(target) {
+
+    var url = target === "zh" ? "/cn/" : "/";
+
+    var currentContent = document.querySelector(".page__content");
+
+    if (!currentContent) {
+      window.location.href = url;
+      return;
+    }
+
+    currentContent.classList.add("language-switching");
+
+    getContentFromPage(url)
+      .then(function (data) {
+
+        currentContent.innerHTML = data.content;
+
+        document.title = data.title;
+
+        if (target === "zh") {
+          history.pushState(
+            {
+              language: "zh"
+            },
+            "",
+            "/"
+          );
+        } else {
+          history.pushState(
+            {
+              language: "en"
+            },
+            "",
+            "/"
+          );
+        }
+
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+
+        currentContent.classList.remove("language-switching");
+
+        updateNavigation(target);
+
+        bindLanguageSwitch();
+
+      })
+      .catch(function (error) {
+
+        console.error(error);
+
+        currentContent.classList.remove("language-switching");
+
+        window.location.href = url;
+
+      });
+  }
+
+  function updateNavigation(language) {
+
+    var nav = document.querySelector("#site-nav");
+
+    if (!nav) {
+      return;
+    }
+
+    var links = nav.querySelectorAll(".visible-links a");
+
+    var englishLinks = [
+      ["Homepage", "/#about-me"],
+      ["Experience", "/#experience"],
+      ["Projects", "/#projects"],
+      ["Education", "/#education"],
+      ["Skills", "/#skills"],
+      ["Awards", "/#awards"],
+      ["Interests", "/#interests"],
+      ["Contact", "/#contact"],
+      ["中文", "#"]
+    ];
+
+    var chineseLinks = [
+      ["首页", "/#about-me"],
+      ["实习经历", "/#experience"],
+      ["项目经历", "/#projects"],
+      ["教育背景", "/#education"],
+      ["专业技能", "/#skills"],
+      ["荣誉奖项", "/#awards"],
+      ["技术兴趣", "/#interests"],
+      ["联系方式", "/#contact"],
+      ["English", "#"]
+    ];
+
+    var data = language === "zh"
+      ? chineseLinks
+      : englishLinks;
+
+    for (var i = 0; i < links.length && i < data.length; i++) {
+
+      links[i].textContent = data[i][0];
+
+      if (i === data.length - 1) {
+        links[i].setAttribute(
+          "data-language-switch",
+          language === "zh" ? "en" : "zh"
+        );
+        links[i].setAttribute("href", "#");
+      } else {
+        links[i].setAttribute("href", data[i][1]);
+        links[i].removeAttribute("data-language-switch");
+      }
+    }
+  }
+
+  function bindLanguageSwitch() {
+
+    var switches = document.querySelectorAll(
+      "[data-language-switch]"
+    );
+
+    switches.forEach(function (link) {
+
+      link.onclick = function (event) {
+
+        event.preventDefault();
+
+        var target = this.getAttribute(
+          "data-language-switch"
+        );
+
+        switchLanguage(target);
+
+      };
+
+    });
+
+  }
+
+  document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+      bindLanguageSwitch();
+
+    }
+  );
+
+})();
+</script>
