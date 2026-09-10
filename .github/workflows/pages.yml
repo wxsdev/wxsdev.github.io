@@ -23,7 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
+      - name: Setup GitHub Pages
         id: pages
         uses: actions/configure-pages@v5
 
@@ -42,6 +42,8 @@ jobs:
           path: ./_site
 
   deploy:
+    name: Deploy to GitHub Pages
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -51,6 +53,6 @@ jobs:
     needs: build
 
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
