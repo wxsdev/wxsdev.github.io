@@ -1,58 +1,265 @@
+```markdown
 ---
 permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# Xinshuai Wang
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+**Computer Science Undergraduate | AI Algorithm Engineer | LLM & AI Application Developer | Computer Vision**
 
+I am an undergraduate student majoring in **Computer Science and Technology** at **Henan Normal University**, expected to graduate in **July 2027**.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+My current interests focus on **Large Language Models, AI Application Development, Computer Vision, Reinforcement Learning, RAG, and Formal Logic Verification**.
 
-# 📝 Publications 
+I am particularly interested in building reliable AI systems that combine **model reasoning, structured knowledge, formal verification, and engineering deployment**.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+I am currently seeking opportunities related to:
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- **AI Algorithm Engineering**
+- **Large Language Models and AI Application Development**
+- **Computer Vision**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+I am open to positions across China.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+---
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+# 🔥 Experience
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+## AI Application Development Engineer
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**FusionServer Digital Technology Co., Ltd. (超聚变数字技术股份有限公司)**  
+*2026.01 - 2026.07*
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+Participated in the development of the **scanf-IPD intelligent review system**, focusing on enterprise-level LLM compliance review, algorithm iteration, and end-to-end AI quality control.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+### Expert Profiling Model & Reinforcement Learning
+
+- Built high-quality preference datasets from multi-round review scores and expert feedback.
+- Explored **Policy Gradient / PPO-style reinforcement learning** approaches to optimize model evaluation behavior.
+- Designed reward and penalty functions to improve review consistency and rigor while reducing hallucinations.
+- Encapsulated reusable review parameters and rule libraries for cross-business scenario migration.
+
+### Dual-Path Reasoning & Formal Verification
+
+- Structured enterprise compliance standards and Charter templates into a reusable compliance knowledge base.
+- Designed a **semantic understanding + formal logic verification** architecture.
+- Integrated the **Z3 Solver** to formally verify mathematical formulas and hard logical constraints.
+- Applied atomic semantic decomposition and unit-level verification to complex unstructured business documents.
+- Improved interpretability and reliability of AI-generated compliance reviews.
+
+### AI Quality Monitoring & Engineering Delivery
+
+- Built end-to-end **AI service tracing** for API calls, Tool Calling, and generated outputs.
+- Conducted systematic quality inspection and generated periodic quality-control and risk reports.
+- Developed high-reliability components and automated tests.
+- Worked on system stability and reliability under high-concurrency workloads.
+
+---
+
+# 🚀 Projects
+
+## Intelligent Home Robot System
+
+*2025.10 - 2025.12*
+
+A multimodal perception system for intelligent home monitoring based on **edge-cloud collaboration**, supporting human pose tracking, real-time emotion recognition, fall detection, and dietary behavior analysis.
+
+### Multi-task Computer Vision
+
+- Customized lightweight models based on the **Ultralytics YOLO** architecture.
+- Combined object detection and **pose estimation** for human behavior and keypoint localization.
+- Built a real-time video processing pipeline.
+- Optimized OpenCV video decoding and model inference latency.
+- Implemented parallel processing for emotion recognition and pose analysis.
+- Designed a lightweight heuristic fall detection algorithm based on:
+  - Centroid displacement velocity
+  - Human keypoint aspect-ratio variation
+- Reduced false positives caused by normal sitting and lying behaviors.
+
+### Backend & System Architecture
+
+- Developed microservices using **Python + Flask**.
+- Designed standardized **RESTful APIs** and **WebSocket** real-time communication channels.
+- Designed MySQL indexes and optimized high-frequency data queries.
+- Supported real-time visualization across:
+  - Vue3 dashboard
+  - PySide6 desktop application
+  - Mini-program
+
+---
+
+## Industrial Worker Safety Compliance Detection System
+
+*2025.09 - 2025.11*
+
+A real-time intelligent safety compliance detection system for construction and industrial environments.
+
+The system integrates:
+
+**Safety Helmet Detection + Reflective Vest Detection + Face Recognition**
+
+### Dataset & Model Training
+
+- Collected images under multi-angle, complex lighting, and occlusion conditions.
+- Performed fine-grained annotation using **LabelImg**.
+- Applied AI data augmentation techniques including:
+  - Mosaic
+  - HSV augmentation
+  - Other image-level transformations
+- Fine-tuned **YOLO-based detection models**.
+- Optimized anchor boxes and confidence thresholds.
+- Improved recall for dense small objects such as distant safety helmets.
+
+### Engineering & Alerting
+
+- Integrated face recognition for personnel identity association.
+- Implemented non-compliance detection, identity association, and snapshot retention.
+- Completed the end-to-end inference pipeline.
+- Containerized the system with **Docker**.
+- Deployed the independent service in a test environment.
+
+---
+
+# 🎓 Education
+
+## Henan Normal University
+
+**B.S. in Computer Science and Technology**
+
+*2023.09 - 2027.07*
+
+My undergraduate study focuses on computer science, artificial intelligence, software engineering, and practical system development.
+
+---
+
+# 🧠 Technical Skills
+
+## Large Language Models & Deep Learning
+
+- **PyTorch**
+- Large Language Model fine-tuning
+- **SFT**
+- Reinforcement Learning / RL Alignment
+- **RAG**
+- Prompt Engineering
+- Hallucination Suppression
+- Preference Data Construction
+- AI Evaluation
+- **Z3 Solver**
+- Formal Logic Verification
+
+## Computer Vision
+
+- **Ultralytics YOLO**
+- Object Detection
+- Image Segmentation
+- Pose Estimation
+- **OpenCV**
+- Dataset Construction
+- Data Annotation
+- Data Augmentation
+- Model Evaluation
+- **mAP / FPS Optimization**
+- Edge and Server-side Deployment
+
+## Engineering & Deployment
+
+- **Python**
+- **Flask**
+- Django
+- RESTful API
+- WebSocket
+- **Docker**
+- Linux
+- Git
+- Cloudflare
+- AI Service Tracing
+- Automated Testing
+
+## Database & Infrastructure
+
+- **MySQL**
+- SQL Query Optimization
+- Database Index Design
+- **Redis**
+- Linux Server Administration
+
+## Security
+
+- **NISP Level 2**
+- Basic Web Security
+- Vulnerability Analysis
+- Security Hardening
+
+---
+
+# 🏆 Honors & Awards
+
+### Academic Competitions
+
+- **First Prize**, Henan Industrial Software Innovation Competition
+- **Provincial Second Prize**, China Undergraduate Mathematical Contest in Modeling
+- **Bronze Award**, Neusoft Education Cup
+- **Provincial Third Prize**, Oriental Fortune Cup National College Student Financial Challenge
+
+### Honors & Scholarships
+
+- **Lecaoyuan Scholarship**
+- **Henan Normal University Subject Competition Individual Award**
+- **Outstanding Communist Youth League Member**, Henan Normal University
+
+### Certifications & Training
+
+- **National Information Security Proficiency Certification (NISP Level 2)**
+- **GYB / SYB Entrepreneurship Training Certificate**
+
+---
+
+# 🔬 Research & Technical Interests
+
+My current technical interests include:
+
+- Large Language Models
+- AI Agents and AI Applications
+- Reinforcement Learning for LLM Alignment
+- RAG and Knowledge-Enhanced Generation
+- Formal Logic Verification
+- Computer Vision
+- Multimodal AI
+- Edge AI
+- AI System Engineering
+- Reliable and Explainable AI
+
+I am especially interested in combining **LLMs with formal verification and engineering systems** to build AI applications that are more reliable, interpretable, and controllable.
+
+---
+
+# 📫 Contact
+
+- **Email:** [wangxinshuaik@163.com](mailto:wangxinshuaik@163.com)
+- **Phone:** 131-4053-6392
+- **Location:** Xinxiang, Henan, China
+- **Availability:** Open to opportunities across China
+
+---
+
+# 💡 Career Objective
+
+I am currently looking for opportunities as an:
+
+**AI Algorithm Engineer**
+
+**LLM / AI Application Development Engineer**
+
+**Computer Vision Engineer**
+
+I hope to continue developing practical experience in **LLM applications, AI algorithms, multimodal perception, and reliable AI system engineering**, while contributing to production-oriented AI systems.
+```
