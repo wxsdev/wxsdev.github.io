@@ -26,7 +26,7 @@ redirect_from:
 - 形式化逻辑验证
 - AI工程化与部署
 
-目前求职方向：
+### 求职方向
 
 - **AI算法工程师**
 - **大模型与AI应用开发工程师**
@@ -35,6 +35,8 @@ redirect_from:
 期望在实际业务中持续深入大模型应用、AI算法、多模态感知以及可靠AI系统工程。
 
 ---
+
+<span class='anchor' id='experience'></span>
 
 # 实习经历
 
@@ -71,6 +73,8 @@ redirect_from:
 - 支持高并发场景下的系统稳定运行。
 
 ---
+
+<span class='anchor' id='projects'></span>
 
 # 项目经历
 
@@ -129,6 +133,8 @@ redirect_from:
 
 ---
 
+<span class='anchor' id='education'></span>
+
 # 教育背景
 
 ## 河南师范大学
@@ -141,9 +147,11 @@ redirect_from:
 
 ---
 
+<span class='anchor' id='skills'></span>
+
 # 专业技能
 
-## 大模型与深度学习
+### 大模型与深度学习
 
 - **PyTorch**
 - 大语言模型微调
@@ -157,7 +165,7 @@ redirect_from:
 - **Z3 Solver**
 - 形式化逻辑验证
 
-## 计算机视觉
+### 计算机视觉
 
 - **Ultralytics YOLO**
 - 目标检测
@@ -171,7 +179,7 @@ redirect_from:
 - **mAP / FPS优化**
 - 边缘端与服务器部署
 
-## 工程开发
+### 工程开发与部署
 
 - **Python**
 - **Flask**
@@ -185,7 +193,7 @@ redirect_from:
 - AI Service Tracing
 - 自动化测试
 
-## 数据库与基础设施
+### 数据库与基础设施
 
 - **MySQL**
 - SQL查询优化
@@ -193,7 +201,7 @@ redirect_from:
 - **Redis**
 - Linux服务器运维
 
-## 网络安全
+### 网络安全
 
 - **NISP二级**
 - Web安全基础
@@ -202,27 +210,31 @@ redirect_from:
 
 ---
 
+<span class='anchor' id='awards'></span>
+
 # 荣誉与奖项
 
-## 学科竞赛
+### 学科竞赛
 
 - **河南工业软件创新大赛一等奖**
 - **全国大学生数学建模竞赛省级二等奖**
 - **东软教育杯铜奖**
 - **“东方财富杯”全国大学生金融挑战赛省赛三等奖**
 
-## 荣誉与奖学金
+### 荣誉与奖学金
 
 - **乐草元奖学金**
 - **河南师范大学学科竞赛单项奖励**
 - **河南师范大学优秀共青团员**
 
-## 培训与认证
+### 培训与认证
 
 - **国家信息安全水平考试（NISP）二级**
 - **河南省GYB/SYB创业培训合格证**
 
 ---
+
+<span class='anchor' id='interests'></span>
 
 # 技术兴趣
 
@@ -244,6 +256,8 @@ redirect_from:
 
 ---
 
+<span class='anchor' id='contact'></span>
+
 # 联系方式
 
 - **邮箱：** wangxinshuaik@163.com
@@ -264,3 +278,9 @@ redirect_from:
 **计算机视觉工程师**
 
 希望在真实业务场景中持续深入 **大模型应用、AI算法、多模态感知与可靠AI系统工程**。
+
+---
+
+## English
+
+[Back to English Homepage →](/)
