@@ -12,21 +12,13 @@ redirect_from:
 
 # Xinshuai Wang
 
-**Computer Science Undergraduate | AI Algorithm Engineer | LLM & AI Application Development | Computer Vision**
+<strong>Computer Science Undergraduate | AI Algorithm Engineer | LLM & AI Application Development | Computer Vision</strong>
 
 I am an undergraduate student majoring in **Computer Science and Technology** at **Henan Normal University**, expected to graduate in **July 2027**.
 
 My current interests focus on **Large Language Models, AI Application Development, Computer Vision, Reinforcement Learning, RAG, Multimodal AI, and Formal Logic Verification**.
 
 I am particularly interested in building reliable AI systems that combine **model reasoning, structured knowledge, formal verification, and engineering deployment**.
-
-### Career Interests
-
-- **AI Algorithm Engineer**
-- **LLM / AI Application Development Engineer**
-- **Computer Vision Engineer**
-
-I am open to opportunities across China.
 
 ---
 
@@ -134,7 +126,7 @@ A real-time computer vision system for industrial safety compliance monitoring.
 
 *2023.09 – 2027.07*
 
-My undergraduate study focuses on **computer science, artificial intelligence, software engineering, and practical system development**.
+My undergraduate study focuses on **computer science, artificial intelligence, software engineering, and practical system development**, with continued hands-on experience in AI algorithms and software engineering.
 
 ---
 
@@ -144,60 +136,23 @@ My undergraduate study focuses on **computer science, artificial intelligence, s
 
 ### LLM & Deep Learning
 
-- **PyTorch**
-- Large Language Model Fine-tuning
-- **SFT**
-- Reinforcement Learning / RL Alignment
-- **RAG**
-- Prompt Engineering
-- Preference Data Construction
-- AI Evaluation
-- Hallucination Suppression
-- **Z3 Solver**
-- Formal Logic Verification
+**PyTorch** · Large Language Model Fine-tuning · **SFT** · Reinforcement Learning / RL Alignment · **RAG** · Prompt Engineering · Preference Data Construction · AI Evaluation · Hallucination Suppression · **Z3 Solver** · Formal Logic Verification
 
 ### Computer Vision
 
-- **Ultralytics YOLO**
-- Object Detection
-- Image Segmentation
-- Pose Estimation
-- **OpenCV**
-- Dataset Construction
-- Data Annotation
-- Data Augmentation
-- Model Evaluation
-- **mAP / FPS Optimization**
-- Edge & Server-side Deployment
+**Ultralytics YOLO** · Object Detection · Image Segmentation · Pose Estimation · **OpenCV** · Dataset Construction · Data Annotation · Data Augmentation · Model Evaluation · **mAP / FPS Optimization** · Edge & Server-side Deployment
 
 ### AI Engineering
 
-- **Python**
-- **Flask**
-- Django
-- RESTful API
-- WebSocket
-- **Docker**
-- Linux
-- Git
-- Cloudflare
-- AI Service Tracing
-- Automated Testing
+**Python** · **Flask** · Django · RESTful API · WebSocket · **Docker** · Linux · Git · Cloudflare · AI Service Tracing · Automated Testing
 
 ### Database & Infrastructure
 
-- **MySQL**
-- SQL Optimization
-- Database Index Design
-- **Redis**
-- Linux Server Administration
+**MySQL** · SQL Optimization · Database Index Design · **Redis** · Linux Server Administration
 
 ### Security
 
-- **NISP Level 2**
-- Web Security
-- Vulnerability Analysis
-- Security Hardening
+**NISP Level 2** · Web Security · Vulnerability Analysis · Security Hardening
 
 ---
 
@@ -207,21 +162,15 @@ My undergraduate study focuses on **computer science, artificial intelligence, s
 
 ### Academic Competitions
 
-- **First Prize**, Henan Industrial Software Innovation Competition
-- **Provincial Second Prize**, China Undergraduate Mathematical Contest in Modeling
-- **Bronze Award**, Neusoft Education Cup
-- **Provincial Third Prize**, Oriental Fortune Cup National College Student Financial Challenge
+**First Prize, Henan Industrial Software Innovation Competition** · **Provincial Second Prize, China Undergraduate Mathematical Contest in Modeling** · **Bronze Award, Neusoft Education Cup** · **Provincial Third Prize, Oriental Fortune Cup National College Student Financial Challenge**
 
 ### Scholarships & Honors
 
-- **Lecaoyuan Scholarship**
-- **Henan Normal University Subject Competition Individual Award**
-- **Outstanding Communist Youth League Member**, Henan Normal University
+**Lecaoyuan Scholarship** · **Henan Normal University Subject Competition Individual Award** · **Outstanding Communist Youth League Member, Henan Normal University**
 
 ### Certifications
 
-- **National Information Security Proficiency Certification (NISP Level 2)**
-- **GYB / SYB Entrepreneurship Training Certificate**
+**NISP Level 2** · **GYB / SYB Entrepreneurship Training Certificate**
 
 ---
 
@@ -229,32 +178,17 @@ My undergraduate study focuses on **computer science, artificial intelligence, s
 
 # Research & Technical Interests
 
-My current interests are organized around the development of **reliable and practical AI systems**.
-
 ### Large Language Models
 
-- LLM Applications
-- AI Agents
-- RAG
-- LLM Alignment
-- Reinforcement Learning
-- Knowledge-Enhanced Generation
+**LLM Applications** · **AI Agents** · **RAG** · LLM Alignment · Reinforcement Learning · Knowledge-Enhanced Generation
 
 ### Reliable AI
 
-- Formal Logic Verification
-- Hallucination Suppression
-- AI Evaluation
-- Explainable AI
-- AI Quality Engineering
+**Formal Logic Verification** · **Hallucination Suppression** · AI Evaluation · Explainable AI · AI Quality Engineering
 
 ### Computer Vision & Multimodal AI
 
-- Object Detection
-- Pose Estimation
-- Multimodal Perception
-- Edge AI
-- Real-time Computer Vision
+**Object Detection** · **Pose Estimation** · Multimodal Perception · Edge AI · Real-time Computer Vision
 
 My broader goal is to combine **LLMs, formal verification, multimodal perception, and engineering systems** to build AI applications that are more reliable, interpretable, and controllable.
 
@@ -264,21 +198,4 @@ My broader goal is to combine **LLMs, formal verification, multimodal perception
 
 # Contact
 
-- **Email:** [wangxinshuaik@163.com](mailto:wangxinshuaik@163.com)
-- **Phone:** 131-4053-6392
-- **Location:** Xinxiang, Henan, China
-- **Availability:** Open to opportunities across China
-
----
-
-# Career Objective
-
-I am currently looking for opportunities as an:
-
-**AI Algorithm Engineer**
-
-**LLM / AI Application Development Engineer**
-
-**Computer Vision Engineer**
-
-I hope to continue developing practical experience in **LLM applications, AI algorithms, multimodal perception, and reliable AI system engineering**, while contributing to production-oriented AI systems.
+**Email:** [wangxinshuaik@163.com](mailto:wangxinshuaik@163.com) · **Phone:** 131-4053-6392 · **Location:** Xinxiang, Henan, China
