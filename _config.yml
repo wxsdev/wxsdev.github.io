@@ -32,13 +32,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
 name             : "Xinshuai Wang"
 avatar           : "images/android-chrome-512x512.png"
-bio              : "Computer Science · AI & Intelligent Systems"
+bio              : "Computer Science - AI & Intelligent Systems"
 location         : "Xinxiang, Henan, China"
 employer         :
 pubmed           :
-googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+googlescholar    :
 email            : "[wangxinshuaik@163.com](mailto:wangxinshuaik@163.com)"
-researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+researchgate     :
 uri              :
 bitbucket        :
 codepen          :
@@ -50,13 +50,13 @@ github           : "wxsdev"
 google_plus      :
 keybase          :
 instagram        :
-impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-linkedin         : # e.g., "linkedin username"
-dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-orcid            : # e.g., "https://orcid.org/xxxx"
+impactstory      :
+linkedin         :
+dblp             :
+orcid            :
 pinterest        :
 soundcloud       :
-stackoverflow    : # http://stackoverflow.com/users/123456/username
+stackoverflow    :
 steam            :
 tumblr           :
 twitter          :
@@ -73,7 +73,9 @@ include:
 * .htaccess
 * _pages
 * files
-  exclude:
+
+exclude:
+
 * docs
 * google_scholar_crawler
 * "*.sublime-project"
@@ -100,11 +102,14 @@ include:
 * package.json
 * tmp
 * vendor
-  keep_files:
+
+keep_files:
+
 * .git
 * .svn
-  encoding: "utf-8"
-  markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 
@@ -143,12 +148,12 @@ defaults:
 
 sass:
 sass_dir: _sass
-style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+style: compressed
 
 # Outputting
 
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 # Plugins
 
@@ -171,8 +176,6 @@ whitelist:
 * jemoji
 
 # HTML Compression
-
-# - http://jch.penibelst.de/
 
 compress_html:
 clippings: all
