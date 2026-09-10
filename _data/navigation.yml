@@ -3,22 +3,25 @@ main:
     url: /cn/
 
   - title: "实习经历"
-    url: /cn/#实习经历
+    url: /cn/#experience
 
   - title: "项目经历"
-    url: /cn/#项目经历
+    url: /cn/#projects
 
   - title: "教育背景"
-    url: /cn/#教育背景
+    url: /cn/#education
 
   - title: "专业技能"
-    url: /cn/#专业技能
+    url: /cn/#skills
 
   - title: "荣誉奖项"
-    url: /cn/#荣誉与奖项
+    url: /cn/#awards
+
+  - title: "技术兴趣"
+    url: /cn/#interests
 
   - title: "联系方式"
-    url: /cn/#联系方式
+    url: /cn/#contact
 
   - title: "English"
     url: /
