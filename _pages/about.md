@@ -1,4 +1,3 @@
-```markdown
 ---
 permalink: /
 title: ""
@@ -13,7 +12,7 @@ redirect_from:
 
 # Xinshuai Wang
 
-**Computer Science Undergraduate | AI Algorithm Engineer | LLM & AI Application Developer | Computer Vision**
+**Computer Science Undergraduate | AI Algorithm Engineer | LLM & AI Application Development | Computer Vision**
 
 I am an undergraduate student majoring in **Computer Science and Technology** at **Henan Normal University**, expected to graduate in **July 2027**.
 
@@ -21,17 +20,17 @@ My current interests focus on **Large Language Models, AI Application Developmen
 
 I am particularly interested in building reliable AI systems that combine **model reasoning, structured knowledge, formal verification, and engineering deployment**.
 
-I am currently seeking opportunities related to:
+**Career Interests**
 
-- **AI Algorithm Engineering**
-- **Large Language Models and AI Application Development**
-- **Computer Vision**
+- AI Algorithm Engineer
+- LLM / AI Application Development Engineer
+- Computer Vision Engineer
 
-I am open to positions across China.
+I am open to opportunities across China.
 
 ---
 
-# 🔥 Experience
+# Experience
 
 ## AI Application Development Engineer
 
@@ -40,14 +39,14 @@ I am open to positions across China.
 
 Participated in the development of the **scanf-IPD intelligent review system**, focusing on enterprise-level LLM compliance review, algorithm iteration, and end-to-end AI quality control.
 
-### Expert Profiling Model & Reinforcement Learning
+### Expert Profiling Model and Reinforcement Learning
 
 - Built high-quality preference datasets from multi-round review scores and expert feedback.
 - Explored **Policy Gradient / PPO-style reinforcement learning** approaches to optimize model evaluation behavior.
 - Designed reward and penalty functions to improve review consistency and rigor while reducing hallucinations.
 - Encapsulated reusable review parameters and rule libraries for cross-business scenario migration.
 
-### Dual-Path Reasoning & Formal Verification
+### Dual-Path Reasoning and Formal Verification
 
 - Structured enterprise compliance standards and Charter templates into a reusable compliance knowledge base.
 - Designed a **semantic understanding + formal logic verification** architecture.
@@ -55,7 +54,7 @@ Participated in the development of the **scanf-IPD intelligent review system**, 
 - Applied atomic semantic decomposition and unit-level verification to complex unstructured business documents.
 - Improved interpretability and reliability of AI-generated compliance reviews.
 
-### AI Quality Monitoring & Engineering Delivery
+### AI Quality Monitoring and Engineering Delivery
 
 - Built end-to-end **AI service tracing** for API calls, Tool Calling, and generated outputs.
 - Conducted systematic quality inspection and generated periodic quality-control and risk reports.
@@ -64,7 +63,7 @@ Participated in the development of the **scanf-IPD intelligent review system**, 
 
 ---
 
-# 🚀 Projects
+# Projects
 
 ## Intelligent Home Robot System
 
@@ -72,27 +71,22 @@ Participated in the development of the **scanf-IPD intelligent review system**, 
 
 A multimodal perception system for intelligent home monitoring based on **edge-cloud collaboration**, supporting human pose tracking, real-time emotion recognition, fall detection, and dietary behavior analysis.
 
-### Multi-task Computer Vision
+### Multi-Task Computer Vision
 
 - Customized lightweight models based on the **Ultralytics YOLO** architecture.
 - Combined object detection and **pose estimation** for human behavior and keypoint localization.
 - Built a real-time video processing pipeline.
 - Optimized OpenCV video decoding and model inference latency.
 - Implemented parallel processing for emotion recognition and pose analysis.
-- Designed a lightweight heuristic fall detection algorithm based on:
-  - Centroid displacement velocity
-  - Human keypoint aspect-ratio variation
+- Designed a lightweight heuristic fall detection algorithm based on centroid displacement velocity and human keypoint aspect-ratio variation.
 - Reduced false positives caused by normal sitting and lying behaviors.
 
-### Backend & System Architecture
+### Backend and System Architecture
 
 - Developed microservices using **Python + Flask**.
 - Designed standardized **RESTful APIs** and **WebSocket** real-time communication channels.
 - Designed MySQL indexes and optimized high-frequency data queries.
-- Supported real-time visualization across:
-  - Vue3 dashboard
-  - PySide6 desktop application
-  - Mini-program
+- Supported real-time visualization across Vue3 dashboard, PySide6 desktop application, and mini-program.
 
 ---
 
@@ -106,19 +100,16 @@ The system integrates:
 
 **Safety Helmet Detection + Reflective Vest Detection + Face Recognition**
 
-### Dataset & Model Training
+### Dataset and Model Training
 
 - Collected images under multi-angle, complex lighting, and occlusion conditions.
 - Performed fine-grained annotation using **LabelImg**.
-- Applied AI data augmentation techniques including:
-  - Mosaic
-  - HSV augmentation
-  - Other image-level transformations
+- Applied AI data augmentation techniques including Mosaic and HSV augmentation.
 - Fine-tuned **YOLO-based detection models**.
 - Optimized anchor boxes and confidence thresholds.
 - Improved recall for dense small objects such as distant safety helmets.
 
-### Engineering & Alerting
+### Engineering and Alerting
 
 - Integrated face recognition for personnel identity association.
 - Implemented non-compliance detection, identity association, and snapshot retention.
@@ -128,7 +119,7 @@ The system integrates:
 
 ---
 
-# 🎓 Education
+# Education
 
 ## Henan Normal University
 
@@ -140,14 +131,14 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 
 ---
 
-# 🧠 Technical Skills
+# Technical Skills
 
-## Large Language Models & Deep Learning
+### Large Language Models and Deep Learning
 
 - **PyTorch**
 - Large Language Model fine-tuning
 - **SFT**
-- Reinforcement Learning / RL Alignment
+- Reinforcement Learning and RL Alignment
 - **RAG**
 - Prompt Engineering
 - Hallucination Suppression
@@ -156,7 +147,7 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 - **Z3 Solver**
 - Formal Logic Verification
 
-## Computer Vision
+### Computer Vision
 
 - **Ultralytics YOLO**
 - Object Detection
@@ -170,7 +161,7 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 - **mAP / FPS Optimization**
 - Edge and Server-side Deployment
 
-## Engineering & Deployment
+### Engineering and Deployment
 
 - **Python**
 - **Flask**
@@ -184,7 +175,7 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 - AI Service Tracing
 - Automated Testing
 
-## Database & Infrastructure
+### Database and Infrastructure
 
 - **MySQL**
 - SQL Query Optimization
@@ -192,7 +183,7 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 - **Redis**
 - Linux Server Administration
 
-## Security
+### Security
 
 - **NISP Level 2**
 - Basic Web Security
@@ -201,7 +192,7 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 
 ---
 
-# 🏆 Honors & Awards
+# Honors and Awards
 
 ### Academic Competitions
 
@@ -210,20 +201,20 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 - **Bronze Award**, Neusoft Education Cup
 - **Provincial Third Prize**, Oriental Fortune Cup National College Student Financial Challenge
 
-### Honors & Scholarships
+### Honors and Scholarships
 
 - **Lecaoyuan Scholarship**
 - **Henan Normal University Subject Competition Individual Award**
 - **Outstanding Communist Youth League Member**, Henan Normal University
 
-### Certifications & Training
+### Certifications and Training
 
 - **National Information Security Proficiency Certification (NISP Level 2)**
 - **GYB / SYB Entrepreneurship Training Certificate**
 
 ---
 
-# 🔬 Research & Technical Interests
+# Research and Technical Interests
 
 My current technical interests include:
 
@@ -242,7 +233,7 @@ I am especially interested in combining **LLMs with formal verification and engi
 
 ---
 
-# 📫 Contact
+# Contact
 
 - **Email:** [wangxinshuaik@163.com](mailto:wangxinshuaik@163.com)
 - **Phone:** 131-4053-6392
@@ -251,7 +242,7 @@ I am especially interested in combining **LLMs with formal verification and engi
 
 ---
 
-# 💡 Career Objective
+# Career Objective
 
 I am currently looking for opportunities as an:
 
@@ -262,4 +253,3 @@ I am currently looking for opportunities as an:
 **Computer Vision Engineer**
 
 I hope to continue developing practical experience in **LLM applications, AI algorithms, multimodal perception, and reliable AI system engineering**, while contributing to production-oriented AI systems.
-```
