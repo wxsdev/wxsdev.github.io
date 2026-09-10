@@ -16,25 +16,28 @@ redirect_from:
 
 I am an undergraduate student majoring in **Computer Science and Technology** at **Henan Normal University**, expected to graduate in **July 2027**.
 
-My current interests focus on **Large Language Models, AI Application Development, Computer Vision, Reinforcement Learning, RAG, and Formal Logic Verification**.
+My current technical interests focus on **Large Language Models, AI Application Development, Computer Vision, Reinforcement Learning, RAG, and Formal Logic Verification**.
 
 I am particularly interested in building reliable AI systems that combine **model reasoning, structured knowledge, formal verification, and engineering deployment**.
 
-**Career Interests**
+### Career Interests
 
-- AI Algorithm Engineer
-- LLM / AI Application Development Engineer
-- Computer Vision Engineer
+- **AI Algorithm Engineer**
+- **LLM / AI Application Development Engineer**
+- **Computer Vision Engineer**
 
 I am open to opportunities across China.
 
 ---
 
+<span class='anchor' id='experience'></span>
+
 # Experience
 
 ## AI Application Development Engineer
 
-**FusionServer Digital Technology Co., Ltd. (超聚变数字技术股份有限公司)**  
+**FusionServer Digital Technology Co., Ltd. (超聚变数字技术股份有限公司)**
+
 *2026.01 - 2026.07*
 
 Participated in the development of the **scanf-IPD intelligent review system**, focusing on enterprise-level LLM compliance review, algorithm iteration, and end-to-end AI quality control.
@@ -62,6 +65,8 @@ Participated in the development of the **scanf-IPD intelligent review system**, 
 - Worked on system stability and reliability under high-concurrency workloads.
 
 ---
+
+<span class='anchor' id='projects'></span>
 
 # Projects
 
@@ -119,6 +124,8 @@ The system integrates:
 
 ---
 
+<span class='anchor' id='education'></span>
+
 # Education
 
 ## Henan Normal University
@@ -130,6 +137,8 @@ The system integrates:
 My undergraduate study focuses on computer science, artificial intelligence, software engineering, and practical system development.
 
 ---
+
+<span class='anchor' id='skills'></span>
 
 # Technical Skills
 
@@ -192,6 +201,8 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 
 ---
 
+<span class='anchor' id='awards'></span>
+
 # Honors and Awards
 
 ### Academic Competitions
@@ -214,6 +225,8 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 
 ---
 
+<span class='anchor' id='interests'></span>
+
 # Research and Technical Interests
 
 My current technical interests include:
@@ -232,6 +245,8 @@ My current technical interests include:
 I am especially interested in combining **LLMs with formal verification and engineering systems** to build AI applications that are more reliable, interpretable, and controllable.
 
 ---
+
+<span class='anchor' id='contact'></span>
 
 # Contact
 
@@ -253,3 +268,9 @@ I am currently looking for opportunities as an:
 **Computer Vision Engineer**
 
 I hope to continue developing practical experience in **LLM applications, AI algorithms, multimodal perception, and reliable AI system engineering**, while contributing to production-oriented AI systems.
+
+---
+
+## 中文
+
+[进入中文主页 →](/cn/)
