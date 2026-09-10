@@ -198,4 +198,4 @@ My broader goal is to combine **LLMs, formal verification, multimodal perception
 
 # Contact
 
-**Email:** [wangxinshuaik@163.com](mailto:wangxinshuaik@163.com) · **Phone:** 131-4053-6392 · **Location:** Xinxiang, Henan, China
+**Email:** [xinw81903@gmail.com](mailto:xinw81903@gmail.com) · **Location:** Xinxiang, Henan, China
