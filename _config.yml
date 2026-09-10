@@ -1,112 +1,100 @@
+```yaml
 # Welcome to Jekyll!
-
-#
-
-# This config file is meant for settings that affect your entire site, values
-
-# which you are expected to set up once and rarely need to edit after that.
-
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-
-# `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
 
-title                    : "Xinshuai Wang"
-description              : "Xinshuai Wang - Computer Science, Artificial Intelligence, Computer Vision, and Intelligent Systems."
-repository               : "wxsdev/wxsdev.github.io"
-google_scholar_stats_use_cdn : true
+title: "Xinshuai Wang"
+description: "Xinshuai Wang - Computer Science, Artificial Intelligence, Computer Vision, and Intelligent Systems."
+repository: "wxsdev/wxsdev.github.io"
+google_scholar_stats_use_cdn: true
 
-# google analytics
+# Google Analytics
 
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id:
 
 # SEO Related
 
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+google_site_verification:
+bing_site_verification:
+baidu_site_verification:
 
 # Site Author
 
 author:
-name             : "Xinshuai Wang"
-avatar           : "images/android-chrome-512x512.png"
-bio              : "Computer Science - AI & Intelligent Systems"
-location         : "Xinxiang, Henan, China"
-employer         :
-pubmed           :
-googlescholar    :
-email            : "[wangxinshuaik@163.com](mailto:wangxinshuaik@163.com)"
-researchgate     :
-uri              :
-bitbucket        :
-codepen          :
-dribbble         :
-flickr           :
-facebook         :
-foursquare       :
-github           : "wxsdev"
-google_plus      :
-keybase          :
-instagram        :
-impactstory      :
-linkedin         :
-dblp             :
-orcid            :
-pinterest        :
-soundcloud       :
-stackoverflow    :
-steam            :
-tumblr           :
-twitter          :
-vine             :
-weibo            :
-xing             :
-youtube          :
-wikipedia        :
+  name: "Xinshuai Wang"
+  avatar: "images/android-chrome-512x512.png"
+  bio: "Computer Science - AI & Intelligent Systems"
+  location: "Xinxiang, Henan, China"
+  employer:
+  pubmed:
+  googlescholar:
+  email: "wangxinshuaik@163.com"
+  researchgate:
+  uri:
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook:
+  foursquare:
+  github: "wxsdev"
+  google_plus:
+  keybase:
+  instagram:
+  impactstory:
+  linkedin:
+  dblp:
+  orcid:
+  pinterest:
+  soundcloud:
+  stackoverflow:
+  steam:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  xing:
+  youtube:
+  wikipedia:
 
 # Reading Files
 
 include:
-
-* .htaccess
-* _pages
-* files
+  - .htaccess
+  - _pages
+  - files
 
 exclude:
-
-* docs
-* google_scholar_crawler
-* "*.sublime-project"
-* "*.sublime-workspace"
-* .asset-cache
-* .bundle
-* .jekyll-assets-cache
-* .sass-cache
-* .github
-* CHANGELOG
-* Capfile
-* Gemfile
-* Gruntfile.js
-* LICENSE
-* README
-* Rakefile
-* assets/js/_main.js
-* assets/js/plugins
-* assets/js/vendor
-* config
-* gulpfile.js
-* log
-* node_modules
-* package.json
-* tmp
-* vendor
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
 
 keep_files:
-
-* .git
-* .svn
+  - .git
+  - .svn
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -122,33 +110,31 @@ incremental: false
 # Markdown Processing
 
 kramdown:
-input: GFM
-hard_wrap: false
-auto_ids: true
-footnote_nr: 1
-entity_output: as_char
-toc_levels: 1..6
-smart_quotes: lsquo,rsquo,ldquo,rdquo
-enable_coderay: false
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Defaults
 
 defaults:
-
-# _pages
-
-* scope:
-  path: ""
-  type: pages
-  values:
-  layout: default
-  author_profile: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
 
 # Sass/SCSS
 
 sass:
-sass_dir: _sass
-style: compressed
+  sass_dir: _sass
+  style: compressed
 
 # Outputting
 
@@ -158,26 +144,25 @@ timezone: Asia/Shanghai
 # Plugins
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
 
-* jekyll-paginate
-* jekyll-sitemap
-* jekyll-gist
-* jekyll-feed
-* jekyll-redirect-from
-
-# mimic GitHub Pages with --safe
+# Mimic GitHub Pages with --safe
 
 whitelist:
-
-* jekyll-paginate
-* jekyll-sitemap
-* jekyll-gist
-* jekyll-feed
-* jemoji
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
 
 # HTML Compression
 
 compress_html:
-clippings: all
-ignore:
-envs: development
+  clippings: all
+  ignore:
+    envs: development
+```
