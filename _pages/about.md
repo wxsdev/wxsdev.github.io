@@ -16,7 +16,7 @@ redirect_from:
 
 I am an undergraduate student majoring in **Computer Science and Technology** at **Henan Normal University**, expected to graduate in **July 2027**.
 
-My current technical interests focus on **Large Language Models, AI Application Development, Computer Vision, Reinforcement Learning, RAG, and Formal Logic Verification**.
+My current interests focus on **Large Language Models, AI Application Development, Computer Vision, Reinforcement Learning, RAG, Multimodal AI, and Formal Logic Verification**.
 
 I am particularly interested in building reliable AI systems that combine **model reasoning, structured knowledge, formal verification, and engineering deployment**.
 
@@ -36,33 +36,32 @@ I am open to opportunities across China.
 
 ## AI Application Development Engineer
 
-**FusionServer Digital Technology Co., Ltd. (超聚变数字技术股份有限公司)**
+**FusionServer Digital Technology Co., Ltd. (超聚变数字技术股份有限公司)**  
+*2026.01 – 2026.07*
 
-*2026.01 - 2026.07*
+Participated in the development of the **scanf-IPD intelligent review system**, focusing on enterprise-level LLM compliance review, algorithm optimization, and AI service quality control.
 
-Participated in the development of the **scanf-IPD intelligent review system**, focusing on enterprise-level LLM compliance review, algorithm iteration, and end-to-end AI quality control.
+### Expert Profiling & Reinforcement Learning
 
-### Expert Profiling Model and Reinforcement Learning
+- Built preference datasets from multi-round review scores and expert feedback.
+- Explored **Policy Gradient / PPO-style reinforcement learning** for model evaluation optimization.
+- Designed reward and penalty functions to improve review consistency and suppress hallucinations.
+- Developed reusable review parameters and rule libraries for cross-business scenarios.
 
-- Built high-quality preference datasets from multi-round review scores and expert feedback.
-- Explored **Policy Gradient / PPO-style reinforcement learning** approaches to optimize model evaluation behavior.
-- Designed reward and penalty functions to improve review consistency and rigor while reducing hallucinations.
-- Encapsulated reusable review parameters and rule libraries for cross-business scenario migration.
+### Semantic Reasoning & Formal Verification
 
-### Dual-Path Reasoning and Formal Verification
-
-- Structured enterprise compliance standards and Charter templates into a reusable compliance knowledge base.
+- Structured enterprise compliance standards and Charter templates into a reusable knowledge base.
 - Designed a **semantic understanding + formal logic verification** architecture.
-- Integrated the **Z3 Solver** to formally verify mathematical formulas and hard logical constraints.
-- Applied atomic semantic decomposition and unit-level verification to complex unstructured business documents.
-- Improved interpretability and reliability of AI-generated compliance reviews.
+- Integrated **Z3 Solver** for mathematical formulas and hard logical constraints.
+- Applied atomic semantic decomposition and unit-level verification to complex business documents.
+- Improved the reliability and interpretability of AI-generated compliance reviews.
 
-### AI Quality Monitoring and Engineering Delivery
+### AI Quality Engineering
 
-- Built end-to-end **AI service tracing** for API calls, Tool Calling, and generated outputs.
-- Conducted systematic quality inspection and generated periodic quality-control and risk reports.
-- Developed high-reliability components and automated tests.
-- Worked on system stability and reliability under high-concurrency workloads.
+- Built end-to-end **AI service tracing** covering API calls, Tool Calling, and model outputs.
+- Conducted systematic AI quality evaluation and generated risk-control reports.
+- Developed automated testing and high-reliability components.
+- Supported system stability under high-concurrency workloads.
 
 ---
 
@@ -72,55 +71,56 @@ Participated in the development of the **scanf-IPD intelligent review system**, 
 
 ## Intelligent Home Robot System
 
-*2025.10 - 2025.12*
+*2025.10 – 2025.12*
 
-A multimodal perception system for intelligent home monitoring based on **edge-cloud collaboration**, supporting human pose tracking, real-time emotion recognition, fall detection, and dietary behavior analysis.
+A multimodal perception system for intelligent home monitoring based on **edge-cloud collaboration**.
 
-### Multi-Task Computer Vision
+### Core Capabilities
 
-- Customized lightweight models based on the **Ultralytics YOLO** architecture.
-- Combined object detection and **pose estimation** for human behavior and keypoint localization.
-- Built a real-time video processing pipeline.
-- Optimized OpenCV video decoding and model inference latency.
+**Human Pose Tracking · Emotion Recognition · Fall Detection · Dietary Behavior Analysis**
+
+### Computer Vision
+
+- Customized lightweight models based on **Ultralytics YOLO**.
+- Combined object detection and **pose estimation** for human behavior analysis.
+- Built a real-time OpenCV video processing pipeline.
 - Implemented parallel processing for emotion recognition and pose analysis.
-- Designed a lightweight heuristic fall detection algorithm based on centroid displacement velocity and human keypoint aspect-ratio variation.
-- Reduced false positives caused by normal sitting and lying behaviors.
+- Designed a lightweight fall detection algorithm based on centroid displacement velocity and keypoint aspect-ratio variation.
 
-### Backend and System Architecture
+### System Engineering
 
-- Developed microservices using **Python + Flask**.
-- Designed standardized **RESTful APIs** and **WebSocket** real-time communication channels.
-- Designed MySQL indexes and optimized high-frequency data queries.
-- Supported real-time visualization across Vue3 dashboard, PySide6 desktop application, and mini-program.
+- Developed backend services using **Python + Flask**.
+- Designed **RESTful APIs** and **WebSocket** communication.
+- Optimized MySQL indexes and high-frequency data queries.
+- Built visualization interfaces with **Vue3, PySide6, and mini-programs**.
 
 ---
 
 ## Industrial Worker Safety Compliance Detection System
 
-*2025.09 - 2025.11*
+*2025.09 – 2025.11*
 
-A real-time intelligent safety compliance detection system for construction and industrial environments.
+A real-time computer vision system for industrial safety compliance monitoring.
 
-The system integrates:
+### Core Capabilities
 
-**Safety Helmet Detection + Reflective Vest Detection + Face Recognition**
+**Safety Helmet Detection · Reflective Vest Detection · Face Recognition**
 
-### Dataset and Model Training
+### Model Development
 
-- Collected images under multi-angle, complex lighting, and occlusion conditions.
-- Performed fine-grained annotation using **LabelImg**.
-- Applied AI data augmentation techniques including Mosaic and HSV augmentation.
-- Fine-tuned **YOLO-based detection models**.
+- Collected multi-angle data under complex lighting and occlusion conditions.
+- Performed annotation using **LabelImg**.
+- Applied **Mosaic and HSV augmentation**.
+- Fine-tuned YOLO-based detection models.
 - Optimized anchor boxes and confidence thresholds.
-- Improved recall for dense small objects such as distant safety helmets.
+- Improved recall for small and distant safety objects.
 
-### Engineering and Alerting
+### Engineering
 
 - Integrated face recognition for personnel identity association.
-- Implemented non-compliance detection, identity association, and snapshot retention.
+- Implemented non-compliance detection, alerting, and snapshot retention.
 - Completed the end-to-end inference pipeline.
-- Containerized the system with **Docker**.
-- Deployed the independent service in a test environment.
+- Containerized the system using **Docker**.
 
 ---
 
@@ -132,9 +132,9 @@ The system integrates:
 
 **B.S. in Computer Science and Technology**
 
-*2023.09 - 2027.07*
+*2023.09 – 2027.07*
 
-My undergraduate study focuses on computer science, artificial intelligence, software engineering, and practical system development.
+My undergraduate study focuses on **computer science, artificial intelligence, software engineering, and practical system development**.
 
 ---
 
@@ -142,17 +142,17 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 
 # Technical Skills
 
-### Large Language Models and Deep Learning
+### LLM & Deep Learning
 
 - **PyTorch**
-- Large Language Model fine-tuning
+- Large Language Model Fine-tuning
 - **SFT**
-- Reinforcement Learning and RL Alignment
+- Reinforcement Learning / RL Alignment
 - **RAG**
 - Prompt Engineering
-- Hallucination Suppression
 - Preference Data Construction
 - AI Evaluation
+- Hallucination Suppression
 - **Z3 Solver**
 - Formal Logic Verification
 
@@ -168,9 +168,9 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 - Data Augmentation
 - Model Evaluation
 - **mAP / FPS Optimization**
-- Edge and Server-side Deployment
+- Edge & Server-side Deployment
 
-### Engineering and Deployment
+### AI Engineering
 
 - **Python**
 - **Flask**
@@ -184,10 +184,10 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 - AI Service Tracing
 - Automated Testing
 
-### Database and Infrastructure
+### Database & Infrastructure
 
 - **MySQL**
-- SQL Query Optimization
+- SQL Optimization
 - Database Index Design
 - **Redis**
 - Linux Server Administration
@@ -195,7 +195,7 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 ### Security
 
 - **NISP Level 2**
-- Basic Web Security
+- Web Security
 - Vulnerability Analysis
 - Security Hardening
 
@@ -203,7 +203,7 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 
 <span class='anchor' id='awards'></span>
 
-# Honors and Awards
+# Honors & Awards
 
 ### Academic Competitions
 
@@ -212,13 +212,13 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 - **Bronze Award**, Neusoft Education Cup
 - **Provincial Third Prize**, Oriental Fortune Cup National College Student Financial Challenge
 
-### Honors and Scholarships
+### Scholarships & Honors
 
 - **Lecaoyuan Scholarship**
 - **Henan Normal University Subject Competition Individual Award**
 - **Outstanding Communist Youth League Member**, Henan Normal University
 
-### Certifications and Training
+### Certifications
 
 - **National Information Security Proficiency Certification (NISP Level 2)**
 - **GYB / SYB Entrepreneurship Training Certificate**
@@ -227,22 +227,36 @@ My undergraduate study focuses on computer science, artificial intelligence, sof
 
 <span class='anchor' id='interests'></span>
 
-# Research and Technical Interests
+# Research & Technical Interests
 
-My current technical interests include:
+My current interests are organized around the development of **reliable and practical AI systems**.
 
-- Large Language Models
-- AI Agents and AI Applications
-- Reinforcement Learning for LLM Alignment
-- RAG and Knowledge-Enhanced Generation
+### Large Language Models
+
+- LLM Applications
+- AI Agents
+- RAG
+- LLM Alignment
+- Reinforcement Learning
+- Knowledge-Enhanced Generation
+
+### Reliable AI
+
 - Formal Logic Verification
-- Computer Vision
-- Multimodal AI
-- Edge AI
-- AI System Engineering
-- Reliable and Explainable AI
+- Hallucination Suppression
+- AI Evaluation
+- Explainable AI
+- AI Quality Engineering
 
-I am especially interested in combining **LLMs with formal verification and engineering systems** to build AI applications that are more reliable, interpretable, and controllable.
+### Computer Vision & Multimodal AI
+
+- Object Detection
+- Pose Estimation
+- Multimodal Perception
+- Edge AI
+- Real-time Computer Vision
+
+My broader goal is to combine **LLMs, formal verification, multimodal perception, and engineering systems** to build AI applications that are more reliable, interpretable, and controllable.
 
 ---
 
@@ -268,9 +282,3 @@ I am currently looking for opportunities as an:
 **Computer Vision Engineer**
 
 I hope to continue developing practical experience in **LLM applications, AI algorithms, multimodal perception, and reliable AI system engineering**, while contributing to production-oriented AI systems.
-
----
-
-## 中文
-
-[进入中文主页 →](/cn/)
