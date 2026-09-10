@@ -196,4 +196,4 @@ layout: default
 
 # 联系方式
 
-**邮箱：** [wangxinshuaik@163.com](mailto:wangxinshuaik@163.com) · **电话：** 131-4053-6392 · **所在地：** 中国 · 河南 · 新乡
+**邮箱：** [xinw81903@gmail.com](mailto:xinw81903@gmail.com) ·  **所在地：** 中国 · 河南 · 新乡
